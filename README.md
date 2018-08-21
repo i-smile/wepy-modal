@@ -142,7 +142,7 @@
 | showOk | 是否展示【确定】按钮      |   Boolean |true|
 | showCancel | 是否展示【取消】按钮      |   Boolean |true|
 | actions | 自定义的操作按钮,样例：[{name: '按钮一', color: 'red'}], name: 按钮名称，color：按钮颜色(css的颜色即可)      |   Array |[]|
-| actionMode | 横列或竖列展示自定义操作按钮(默认横排)      |   String |''|
+| actionMode | 横列(默认)或竖列(vertical)展示自定义操作按钮(默认横排)      |   String |''|
 | onClickItem | 当点击自定义的操作按钮时触发，参数index为点击按钮的索引，参数action为点击按钮的配置项      |   function(index, action) |无|
 | onClickOk | 当点击确定按钮时触发      |   function |无|
 | onClickCancel | 当点击取消按钮时触发      |   function |无|
